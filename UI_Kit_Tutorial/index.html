@@ -10,8 +10,189 @@
     <script src="js/uikit-icons.min.js"></script>
 </head>
 
-<body>
+<body style="margin: 2rem;">
     <h1>UI Kit Tutorial</h1>
+
+    <!-- Accordion -->
+    <h2>Accordion</h2>
+    <ul uk-accordion>
+        <li class="uk-open">
+            <a class="uk-accordion-title" href="#">Item 1</a>
+            <div class="uk-accordion-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </li>
+        <li>
+            <a class="uk-accordion-title" href="#">Item 2</a>
+            <div class="uk-accordion-content">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor reprehenderit.</p>
+            </div>
+        </li>
+        <li>
+            <a class="uk-accordion-title" href="#">Item 3</a>
+            <div class="uk-accordion-content">
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat proident.</p>
+            </div>
+        </li>
+    </ul>
+
+    <!-- Alert -->
+    <h2>Alert</h2>
+    <div class="uk-alert-primary" uk-alert>
+        <a class="uk-alert-close" uk-close></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    </div>
+
+    <div class="uk-alert-success" uk-alert>
+        <a class="uk-alert-close" uk-close></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    </div>
+
+    <div class="uk-alert-warning" uk-alert>
+        <a class="uk-alert-close" uk-close></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    </div>
+
+    <div class="uk-alert-danger" uk-alert>
+        <a class="uk-alert-close" uk-close></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    </div>
+
+    <!-- Align -->
+    <h2>Align</h2>
+    <div class="uk-panel">
+        <img class="uk-align-left uk-margin-remove-adjacent" src="./images/umi-mori.png" width="225" height="150"
+            alt="Example image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
+            ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.
+        </p>
+    </div>
+
+    <!-- Animation -->
+    <h2>Animation</h2>
+    <div class="uk-child-width-1-2 uk-child-width-1-4@s uk-grid-match" uk-grid>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-fade uk-animation-reverse">
+                <p class="uk-text-center">Fade</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-scale-up uk-animation-reverse">
+                <p class="uk-text-center">Scale Up</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-scale-down uk-animation-reverse">
+                <p class="uk-text-center">Scale Down</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-shake uk-animation-reverse">
+                <p class="uk-text-center">Shake</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-left uk-animation-reverse">
+                <p class="uk-text-center">Left</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top uk-animation-reverse">
+                <p class="uk-text-center">Top</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-bottom uk-animation-reverse">
+                <p class="uk-text-center">Bottom</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-right uk-animation-reverse">
+                <p class="uk-text-center">Right</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-left-small uk-animation-reverse">
+                <p class="uk-text-center">Left Small</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top-small uk-animation-reverse">
+                <p class="uk-text-center">Top Small</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-bottom-small uk-animation-reverse">
+                <p class="uk-text-center">Bottom Small</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-right-small uk-animation-reverse">
+                <p class="uk-text-center">Right Small</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-left-medium uk-animation-reverse">
+                <p class="uk-text-center">Left Medium</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top-medium uk-animation-reverse">
+                <p class="uk-text-center">Top Medium</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-bottom-medium uk-animation-reverse">
+                <p class="uk-text-center">Bottom Medium</p>
+            </div>
+        </div>
+        <div class="uk-animation-toggle" tabindex="0">
+            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-right-medium uk-animation-reverse">
+                <p class="uk-text-center">Right Medium</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Article -->
+    <h2>Article</h2>
+    <article class="uk-article">
+        <h1 class="uk-article-title"><a class="uk-link-reset" href="">Heading</a></h1>
+        <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a
+                href="#">Blog</a>
+        </p>
+        <p class="uk-text-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est
+            laborum.</p>
+
+        <div class="uk-grid-small uk-child-width-auto" uk-grid>
+            <div>
+                <a class="uk-button uk-button-text" href="#">Read more</a>
+            </div>
+            <div>
+                <a class="uk-button uk-button-text" href="#">5 Comments</a>
+            </div>
+        </div>
+    </article>
 
 </body>
 
